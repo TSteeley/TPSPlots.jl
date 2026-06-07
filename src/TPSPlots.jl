@@ -1,5 +1,16 @@
 module TPSPlots
+    using Plots
+    using ColorSchemes
 
-# Write your package code here.
+    export squarify, fplot
+    
+    include("squarify.jl")
+    include("fplot.jl")
+    include("myTheme.jl")
+
+    function __init__()
+        myTheme()
+    end
 
 end
+
