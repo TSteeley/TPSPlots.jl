@@ -1,0 +1,13 @@
+name = "TPSPlots"
+uuid = "3b0624b6-c637-4a0b-9fa1-14225a0016da"
+authors = ["Thomas P. Steele"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
